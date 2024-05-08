@@ -4,6 +4,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    colors: {
+      focus : '#c4b5fd'
+    }
   },
   plugins: [
     require('@tailwindcss/forms'),
